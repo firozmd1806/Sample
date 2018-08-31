@@ -11,5 +11,10 @@ pipeline {
         echo 'starting...........'
       }
     }
+    stage('') {
+      steps {
+        writeFile(file: 'test', text: 'test')
+      }
+    }
   }
 }
