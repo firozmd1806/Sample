@@ -11,9 +11,14 @@ pipeline {
         echo 'starting...........'
       }
     }
-    stage('') {
+    stage('error') {
       steps {
         writeFile(file: 'test', text: 'test')
+      }
+    }
+    stage('gghh') {
+      steps {
+        echo 'trtttttttttttttttttttt'
       }
     }
   }
