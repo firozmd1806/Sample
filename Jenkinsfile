@@ -6,5 +6,10 @@ pipeline {
         sleep 2
       }
     }
+    stage('start') {
+      steps {
+        echo 'starting...........'
+      }
+    }
   }
 }
